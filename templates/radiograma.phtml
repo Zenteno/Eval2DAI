@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+	<title>Radio VaioVaio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="css/w3.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery-ui.min.css">
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<meta charset="utf-8">
+	</style>
+	<body>
+		<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-left" style="display:none; overflow: hidden;" id="mySidebar" >
+			<button class="w3-bar-item w3-button w3-large"
+			 id="cerrarLeida">Leídas &times;</button>
+			<div id="leidas" class="list-group" style="overflow-y: scroll; height: 90vh;">
+			</div>
+		</div>
+		<div class="w3-main" id="main">
+			<div class="w3-teal">
+				<table style="width: 100%">
+					<tr>
+						<td style="width: 10%"><button class="w3-button w3-teal w3-xlarge" id="abrirLeida" style="float: left;">&#9776;</button></td>
+						<td style="width: 80%">
+							
+						</td>
+						<td style="width: 10%"><button class="w3-button w3-teal w3-xlarge" id="abrirxleer" style="float: right;">&#9776;</button></td>
+					</tr>
+				</table>
+			</div>
+			<div id="page-content-wrapper">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12">
+							<ul class="nav nav-tabs" role="tablist">
+							</ul>
+							<div class="tab-content" style="overflow-y: scroll; height: 80vh;">
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="w3-sidebar w3-bar-block w3-card-2 w3-animate-right" style="display:none; bottom: 0; overflow: hidden;" id="derecho">
+			<button class="w3-bar-item w3-button w3-large"
+			 id="cerrarxleer">Por Leer &times;</button>
+			<div id="xleer" class="list-group" style="overflow-y: scroll; height: 90vh;">
+			</div>
+		</div>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery-ui.min.js"></script>
+		<script src="js/bootstrap.js"></script>
+		<script src="js/Utils.js"></script>
+	</body>
+</html>
+
